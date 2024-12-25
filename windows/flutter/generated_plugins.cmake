@@ -3,10 +3,11 @@
 #
 
 list(APPEND FLUTTER_PLUGIN_LIST
-  cloud_firestore
-  firebase_auth
-  firebase_core
+  desktop_window
+  screen_retriever_windows
   sqlite3_flutter_libs
+  window_manager
+  windows_notification
 )
 
 list(APPEND FLUTTER_FFI_PLUGIN_LIST
