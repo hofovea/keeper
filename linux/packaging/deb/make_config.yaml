@@ -1,0 +1,28 @@
+display_name: Keeper
+package_name: keeper
+
+maintainer:
+  name: hofovea
+
+priority: optional
+
+section: x11
+
+installed_size: 15700
+
+dependencies:
+
+essential: false
+
+postuninstall_scripts:
+  - echo "Sorry to see you go."
+
+keywords:
+  - keeper
+
+generic_name: Keeper
+
+categories:
+  - Research
+
+startup_notify: true
